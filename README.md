@@ -99,7 +99,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ![Screenshot from 2023-12-10 18-30-13](https://github.com/Shubhampalve7/Delta-X-assignment/assets/119780611/eb287e99-b816-4cec-ad36-3dd089673ce5)
 
+
 ![Screenshot from 2023-12-10 18-23-46](https://github.com/Shubhampalve7/Delta-X-assignment/assets/119780611/a9abfbc9-7e9e-49fd-9994-d9f3d1ab142c)
+
+
+![Screenshot from 2023-12-10 20-09-50](https://github.com/Shubhampalve7/Delta-X-assignment/assets/119780611/a57ee33e-3026-40b7-af61-3666828d14bd)
+
+
 
 
 
