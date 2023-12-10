@@ -1,0 +1,24 @@
+
+.search_playlist {
+      border: none;
+      width: 350px;
+      border-radius: 20px;
+      height: 40px;
+      padding: 14px;
+      background-color: black;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+       margin-top: 50px;
+       margin-left: 800px;
+      color: rgb(129, 233, 77);
+    }
+.div{
+ background-color: rgb(60, 101, 177);
+ height: 100vh;
+    }
+    .rating-list li.selected {
+      color: #ffd700;
+  }

@@ -8,6 +8,10 @@ import { AddNewSongComponent } from './add-new-song/add-new-song.component';
 import { SearchComponent } from './search/search.component';
 import { SongCardComponent } from './song-card/song-card.component';
 import { NavbarComponent } from './navbar/navbar.component';
+// import { StudentcrudComponent } from './studentcrud/studentcrud.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,10 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,42 @@
-<p>search works!</p>
+<div class="div ">
+      <input
+        class="search_playlist"
+        type="search"
+        placeholder="What do you want to listen to?"
+      
+      />
+      <div class="container mt-4" >
+            <h1>Student Table</h1>
+           <table class="table" style="margin-bottom: 50px;">
+             <thead>    
+             <tr>
+                 <th scope="col">Name</th>
+                 <th scope="col">Artist</th>
+                 <!-- <th scope="col">Song</th> -->
+                 <th scope="col">Date Of Release</th>
+                 <!-- <input type="date" #date /> -->
+                 <th scope="col">Rate</th>
+                 <!-- <th scope="col">Phone</th>   -->
+                 <th scope="col">Option</th>
+               </tr>
+             </thead>
+             <tbody>
+                 <tr *ngFor="let StudentItem of StudentArray">
+                 <td>{{StudentItem.name  | uppercase}}</td>
+                 <td>{{StudentItem.Artist }}</td>
+                 <!-- <td>{{StudentItem.Song }}</td> -->
+                 <td>{{StudentItem.Date_Of_Release }}<input type="date" #date /> </td>
+                 <td>{{StudentItem.Rate}}<ngb-rating [max]="5" style="color: rgb(7, 7, 2);size: 20px;" [(rate)]="StudentItem.currentRate" [readonly]="false"></ngb-rating></td>
+                 
+                 
+                 <!-- <td>{{StudentItem.phone }}</td> -->
+                 <td>
+                   <button type="button" class="btn btn-success" style="margin-right: 10px;">Edit</button>
+                   <button type="button" class="btn btn-danger" >Delete</button>            
+                 </td>
+               </tr>          
+             </tbody>
+           </table>
+           </div>
+</div>
+

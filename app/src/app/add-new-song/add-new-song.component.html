@@ -1,1 +1,29 @@
-<p>add-new-song works!</p>
+<div class="delta_home-container-playlist ">
+<form>
+  <div class="mt-5">
+    <label  class="form-label">Name of song</label>
+    <input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" class="form-control" id="exampleInputName" >
+  </div>
+  <div class="mt-5">
+      <label class="form-label">Artist name</label>
+      <input type="text" [(ngModel)]="artist" [ngModelOptions]="{standalone: true}" class="form-control" id="exampleInputArtist" >
+    </div>
+    <div class="mt-5">
+      <label class="form-label">Date of release</label>
+      <br>
+      <input type="date" #date />
+    </div>
+    <div class="mt-5">
+      <label class="form-label">Rate</label>
+      <br>
+      <ngb-rating [max]="5" style="color: rgb(245, 245, 108);" [(rate)]="currentRate" [readonly]="false"></ngb-rating>
+    </div>
+    
+  <div class="mt-5 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
