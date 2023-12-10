@@ -1,0 +1,24 @@
+.delta_home-container-sidebar{
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+}
+.delta_home-container-playlist{
+      background-color:  rgb(14, 33, 199); 
+       height: 100vh;
+}
+.delta_home-container-sidebar-item  {
+      text-align: left !important;
+      font-size: 20px;
+      width: 100%;
+      margin: 10px;
+      padding-left: 10px;
+color: white;
+}
+.delta_home-container-sidebar-item a:hover{
+      cursor: pointer;
+      color: rgb(43, 184, 43);
+}
