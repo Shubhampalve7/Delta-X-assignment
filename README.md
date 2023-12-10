@@ -19,6 +19,8 @@ Assignment for delta X
 
 - the below script is just to insert the collection in MONGO
 
+***********   the query for CRUD operation is in javascript file in backend folder *********
+
 
 est.employees.insertMany(
 [
