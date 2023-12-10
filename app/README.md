@@ -2,6 +2,82 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
+#INFO 
+
+//  All the info regarding project is her         //
+
+--- I tried to connect database with javscript and take that data to reflect in html file 
+
+--- I created several component cause I want to Add some features also but colud not happened  
+
+// this is my databse script //
+
+- Actually I know Mysql but there were some problem in my ubuntu regarding mysql so it was not responding to any server and not started in the end so I decided to work with MONGO DB . 
+
+- the below script is just to insert the collection in MONGO
+
+
+est.employees.insertMany(
+[
+   
+  {
+      "name":"Shape of You",
+      "Artist":"Ed Sheeran",
+      "currentRate":"4"
+    },
+    {
+      "name":"me tera",
+      "Artist":"arijit singh",
+      "currentRate":"3"
+    },
+    {
+      "name":"Uptown Funk",
+      "Artist":"Mark Ronson ft. Bruno Mars",
+      "currentRate":"2"
+    },
+    {
+      "name":"Someone Like You",
+      "Artist":"Adele",
+      "currentRate":"2"
+    },
+    {
+      "name":"Despacito",
+      "Artist":"Luis Fonsi ft. Daddy Yankee",
+      "currentRate":"1"
+    },
+    {
+      "name":"Billie Jean",
+      "Artist":"Michael Jackson",
+      "currentRate":"4"
+    },
+    {
+      "name":"Happy",
+      "Artist":"Pharrell Williams",
+      "currentRate":"2"
+    },
+    {
+      "name":"Old Town Road",
+      "Artist":"lil nas",
+      "currentRate":"4"
+    },
+    {
+      "name":"Bohemian Rhapsody",
+      "Artist":" Queen",
+      "currentRate":"3"
+    },
+    {
+      "name":"Rolling in the Deep",
+      "Artist":"Adele",
+      "currentRate":"5"
+    }
+    ]
+)
+
+
+// 
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
